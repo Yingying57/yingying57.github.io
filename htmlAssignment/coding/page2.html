@@ -1,0 +1,158 @@
+		<html>
+	<head>
+
+
+		<title>
+			Folders
+
+		</title>
+
+
+		<style>
+			
+			body{
+				align-content: center;
+				justify-content: center;
+				display:flex;
+
+				
+			}
+
+			.Shell{
+
+				width: 50%;
+				height: 600px;
+				margin:auto;
+				display:flex;
+			}
+
+
+			.box{
+
+				flex:1;
+  				overflow: hidden;
+  				object-fit: contain;
+  				margin: 0 12px;
+  				box-shadow: 10px 10px 20px #888888;
+  				border-radius: 25px;
+  				border: 10px solid white;
+  				cursor:pointer;
+
+  				
+			}
+
+			.box>img{
+				width: 200%;
+				height: 85%;
+				object-fit: cover;
+				transition: .5;
+				
+				
+			}
+			.box>span{
+				font-family: arial;
+				padding: 45px;
+				text-align: center;
+				justify-content: center;
+  				align-items: center;
+				display: flex;
+
+				font-weight: bold;
+
+
+
+			}
+			.box:hover{
+				flex-basis: 40%;
+			}
+
+			.box:hover>img{
+				width: 100%;
+				height: 100%;
+			}
+
+			.HomeBotton{
+				
+				border-radius: 15px;
+				
+			
+				cursor:pointer;
+				background-color:#FFB9B7;
+				width: 60 px;
+				height: 5%;
+				
+
+
+			}
+			.HomeBotton>span{
+				font-family: arial;
+				font-weight: bold;
+				text-align: center;
+				color:white;
+				
+				padding: 10px;
+				justify-content: center;
+  				align-items: center;
+				display: flex;
+				
+
+			}
+
+
+
+		</style>
+
+
+
+	</head>
+
+
+
+	<body>
+		<div class="Shell">
+			<div class="box" onclick="window.open('page3.html')">
+
+			  <img src="Art/fanArt/fanArt4.jpg"  height= "700px";>
+			   <span>FanArt</span>
+
+
+		    </div>
+
+
+		<div class="box" onclick="window.open('page4.html')">
+
+			   <img src="Art/Friend/3.jpg" height= "700px"; >
+			   <span>Friend</span>
+
+		    </div>
+
+
+
+		    <div class="box" onclick="window.open('page5.html')">
+
+			   <img src="Art/Summer/dawn.jpg" height= "700px"; >
+			   <span>Summer</span>
+
+		    </div>
+
+
+
+
+		</div>
+
+		<div class="HomeBotton" onclick="window.open('Page1.html')">
+			<Span>Home</Span>
+
+
+		</div>
+		
+
+
+	</body>
+
+
+
+
+
+
+		</html>
